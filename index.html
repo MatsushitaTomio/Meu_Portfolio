@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tomio Matsushita</title>
+
+  <!--- link-css --->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!--- link-fonts --->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- SEO -->
+  <meta name="description" content="Meu Portfólio - Tomio Matsushita">
+
+  <!-- SMO -->
+  <meta property="og:title" content="Portfólio - Tomio Matsushita" >
+  <meta property="og:site_name" content="Portfólio de Tomio Matsushita">
+  <meta property="og:description" content="Sou desenvolvedor web front-end. Aqui você vai encontrar alguns dos meus principais projetos. ">
+  <meta property="og:url" content="https://matsushitatomio.github.io/My_Portfolio/">
+  <meta property="og:image" content="assets/img/home-mobile-light-mode.jpg">
+  <meta property="og:image/type">
+
+
+</head>
+<body>
+  <!-- header design -->
+  <nav>
+      <ul class="navlist">
+        <li class="active" name="nav-li"><a href="#home" class="active" name="nav-a">Início</a></li>
+        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
+        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
+        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
+        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
+      </ul>
+
+      <div>
+        <ul class="social-network">
+          <li>
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+          </li>
+          <li><a href="https://www.linkedin.com/in/Tomio-matsushita" target="_blank">
+            <figure id="fig1"></figure>
+          </a></li>
+          <li><a href="https://github.com/MatsushitaTomio" target="_blank">
+            <figure id="fig2"></figure>
+          </a></li>
+        </ul>
+      </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </nav>
+
+    <main>
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p id="text">
+            Olá, seja bem - vindo.<br>
+            Eu sou o Tomio.<br>
+            Se você chegou aqui no meu site,<br>
+            é porque está procurando<br>
+            por um profissional de T.I.<br>
+            E, quem sabe, esse profissional pode ser eu.<br>
+            Fique a vontade para ler um pouco sobre mim<br>
+            e conhecer meus projetos.
+          </p>
+        </div>
+        <img class="home-bg" src="assets/img/bg-home.png" alt="tomio-memoji">
+      </section>
+
+      <!-- about section -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="assets/img/foto-sobre-2.jpg" alt="imagem-sobre-mim">
+        </div>
+
+        <div class="about-text">
+          <h2><span>SOBRE</span> MIM</h2>
+          <p1>
+            Tenho 31 anos e estou em busca de uma oportunidade na área de T.I como programador.
+            Me graduei em 2021 no curso de Análise e Desenvolvimento de Sistemas pela UNIP (Polo Japão)
+          </p1>
+            <button class="button-cv">
+              <a href="assets/curriculo-front-end.pdf" download="CV - Tomio Matsushita" class="btn-cv"> Download CV</a>
+            </button>
+
+          </div>
+          <img src="assets/img/balls.svg" alt="balls" class="balls">
+      </section>
+
+      <!-- skills section -->
+      <section class="skills" id="skills">
+
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+          <div class="techs">
+            <div class="card">
+              <img src="assets/img/html-icon.svg" alt="icone html">
+              <p2>HTML</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/css-icon.svg" alt="icone css">
+              <p2>CSS</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/js-icon.svg" alt="icone javascript">
+              <p2>JavaScript</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/ts-icon.svg" alt="icone typescript">
+              <p2>TypeScript</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/php-icon.svg" alt="icone php">
+              <p2>PHP</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/react-icon.svg" alt="icone react.js">
+              <p2>React.js</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/node-icon.svg" alt="icone node.js">
+              <p2>Node.js</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/python-icon.svg" alt="icone python">
+              <p2>Python</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/sql-icon.svg" alt="icone sql">
+              <p2>SQL</p2>
+            </div>
+            <div class="card">
+              <figure id="fig3"></figure>
+              <p2>Git</p2>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+          <div class="tools">
+            <div class="card">
+              <img src="assets/img/docker-icon.svg" alt="icone docker">
+              <p2>Docker</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/postman-icon.svg" alt="icone postman">
+              <p2>Postman</p2>
+            </div>
+            <div class="card">
+              <figure id="fig4"></figure>
+              <p2>GitHub</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/vs-code-icon.svg" alt="icone vscode">
+              <p2>VSCode</p2>
+            </div>
+            <div class="card">
+              <img src="assets/img/figma-icon.svg" alt="icone figma">
+              <p2>Figma</p2>
+            </div>
+            <div class="card">
+              <figure id="fig5"></figure>
+              <p2>Notion</p2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects section -->
+      <section id="projects" class="projects">
+        <div class="line"></div>
+        <div class="main-text">
+          <h2>Meus <span>Projetos</span></h2>
+        </div>
+        <div class="portfolio-content">
+
+          <div class="row">
+            <img src="assets/img/relogio.png" alt="print projeto relogio digital">
+            <div class="layer">
+              <h5>Relógio Digital</h5>
+              <p3>Relógio digital dinâmico.</p3>
+              <div class="site-github">
+                <a href="https://matsushitatomio.github.io/Relogio/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/MatsushitaTomio/Relogio" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/tela-login.png" alt="print tela login">
+            <div class="layer">
+              <h5>Tela de login</h5>
+              <p3>Tela de login com modo dark.</p3>
+              <div class="site-github">
+                <a href="https://matsushitatomio.github.io/Tela-de-login/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/MatsushitaTomio/Tela-de-login" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/calculadora_imc.png" alt="pagina calculadora imc">
+            <div class="layer">
+              <h5>Calculadora IMC</h5>
+              <p3>Calculadora de IMC responsiva.</p3>
+              <div class="site-github">
+                <a href="https://matsushitatomio.github.io/Calculadora-de-IMC/" target="_blank"><i class='bx bx-link-external'></i></a>
+                <a href="https://github.com/MatsushitaTomio/Calculadora-de-IMC" target="_blank"><i class='bx bxl-github'></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/form.png" alt="calendario formulario">
+            <div class="layer">
+              <h5>Formulário de cadastro</h5>
+              <p3>Formulário de cadastro com validação de campos.</p3>
+              <div class="site-github">
+                <a href="https://matsushitatomio.github.io/Form/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/MatsushitaTomio/Form" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/projetos_embreve.png" alt="jogo do mario">
+            <div class="layer">
+              <h5>Titulo</h5>
+              <p3>Descrição</p3>
+              <div class="site-github">
+                <a href="MEULINK" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="MEULINK"target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/projetos_embreve.png" alt="rastreador de habitos">
+            <div class="layer">
+              <h5>Titulo</h5>
+              <p3>Descrição</p3>
+              <div class="site-github">
+                <a href="MEULINK" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="MEULINK" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/projetos_embreve.png" alt="agregador de links">
+            <div class="layer">
+              <h5>Titulo</h5>
+              <p3>Descrição</p3>
+              <div class="site-github">
+                <a href="MEULINK" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="MEULINK"target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/projetos_embreve.png" alt="page security">
+            <div class="layer">
+              <h5>Titulo</h5>
+              <p3>Descrição</p3>
+              <div class="site-github">
+                <a href="MEULINK" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="MEULINK" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <img src="assets/img/projetos_embreve.png" alt="page ice cream">
+            <div class="layer">
+              <h5>Titulo</h5>
+              <p3>Descrição</p3>
+              <div class="site-github">
+                <a href="MEULINK" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="MEULINK"target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    <!----contact section --->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato</span></h2>
+        </div>
+
+      </div>
+
+      <div class="contact-form">
+        <form action="https://formsubmit.co/tomiomatsushita@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea type="text" name="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+          <input type="hidden" name="_next" value="https://silver-shortbread-4377d9.netlify.app/#contact">
+          <br>
+          <input type="submit" value="Enviar" class="submit" required>
+        </form>
+      </div>
+
+      <div class="contact-icons">
+        <a href="https://github.com/MatsushitaTomio" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/Tomio-matsushita" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="mailto:tomiomatsushita@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+      </div>
+
+    </section>
+  </main>
+
+	<!----end section --->
+	<section class="end">
+		<div class="last-text">
+			<p1>by Tomio Matsushita <img src="assets/img/meu-logo.png" alt=""> All Rights Reserved.</p1>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+
+  <!--- link-script --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="assets/script/script.js"></script>
+</body>
+</html>
