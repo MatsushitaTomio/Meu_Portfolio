@@ -23,14 +23,13 @@
   --second-font: 'Inter', sans-serif;
 
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url("assets/img/moon-star.svg");
+  --switch-bg-url: url("/assets/img/moon-star.svg");
 
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
-  --bg-image-home: url("assets/img/bg-home-dark-3.jpg");
-  --bg-image-page: url("assets/img/bg-dark.jpg");
+  
   --position-bg-home: 15rem -7rem;
   --logo-github: url("assets/img/logo-github-white.svg");
   --logo-github-hover: url("assets/img/logo-github-orange.svg");
