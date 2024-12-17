@@ -41,7 +41,7 @@
 
   --button-text-color-hover: #FFFFFF;
 
-  --bg-contact: url("assets/img/bg-contact-dark.jpg");
+  --bg-contact: url("../img/sun.svg");
   --border-form: none;
   --bg-form: rgba(24, 24, 24, 0.726);
 
