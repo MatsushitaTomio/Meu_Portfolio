@@ -30,18 +30,18 @@
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
   --position-bg-home: 15rem -7rem;
-  --logo-github: url("/assets/img/logo-github-white.svg");
-  --logo-github-hover: url("/assets/img/logo-github-orange.svg");
-  --logo-linkedin: url("/assets/img/logo-linkedin-white.svg");
-  --logo-linkedin-hover: url("/assets/img/logo-linkedin-orange.svg");
-  --logo-git: url("/assets/img/git-icon-black.svg");
-  --logo-github-skills: url("/assets/img/github-icon-white.svg");
-  --logo-notion: url("/assets/img/notion-icon-white.svg");
+  --logo-github: url("../img/logo-github-white.svg");
+  --logo-github-hover: url("../img/logo-github-orange.svg");
+  --logo-linkedin: url("../img/logo-linkedin-white.svg");
+  --logo-linkedin-hover: url("../img/logo-linkedin-orange.svg");
+  --logo-git: url("../img/git-icon-black.svg");
+  --logo-github-skills: url("../img/github-icon-white.svg");
+  --logo-notion: url("../img/notion-icon-white.svg");
 
 
   --button-text-color-hover: #FFFFFF;
 
-  --bg-contact: url("/assets/img/bg-contact-dark.jpg");
+  --bg-contact: url("../img/bg-contact-dark.jpg");
   --border-form: none;
   --bg-form: rgba(24, 24, 24, 0.726);
 
@@ -57,26 +57,26 @@
   --card-bg-color: none;
 
   --highlight-color: rgba(0, 0, 0, 0.25);
-  --switch-bg-url: url("./assets/img/sun.svg");
+  --switch-bg-url: url("../img/sun.svg");
 
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
-  --bg-image-home: url("assets/img/bg-home-light-3.avif");
-  --bg-image-page: url("assets/img/bg-light.jpg");
+  --bg-image-home: url("../img/bg-home-light-3.avif");
+  --bg-image-page: url("../img/bg-light.jpg");
   --position-bg-home: -70rem 0;
-  --logo-github: url("assets/img/logo-github-black.svg");
-  --logo-github-hover: url("assets/img/logo-github-blue.svg");
-  --logo-linkedin: url("assets/img/logo-linkedin-black.svg");
-  --logo-linkedin-hover: url("assets/img/logo-linkedin-blue.svg");
-  --logo-git: url("assets/img/git-icon-white2.svg");
-  --logo-github-skills: url("assets/img/logo-github-black.svg");
-  --logo-notion: url("assets/img/notion-icon.svg");
+  --logo-github: url("../img/logo-github-black.svg");
+  --logo-github-hover: url("../img/logo-github-blue.svg");
+  --logo-linkedin: url("../img/logo-linkedin-black.svg");
+  --logo-linkedin-hover: url("../img/logo-linkedin-blue.svg");
+  --logo-git: url("../img/git-icon-white2.svg");
+  --logo-github-skills: url("../img/logo-github-black.svg");
+  --logo-notion: url("../img/notion-icon.svg");
 
   --button-text-color-hover: #ffffff;
 
-  --bg-contact: url("assets/img/bg-contact-white.jpg");
+  --bg-contact: url("..img/bg-contact-white.jpg");
   --border-form: 2px solid #004A76;
   --bg-form: rgba(255, 255, 255, 0.726);
 
