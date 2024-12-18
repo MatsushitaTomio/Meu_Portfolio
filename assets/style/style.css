@@ -63,8 +63,7 @@
   --surface-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(3, 0, 0, 0.308);
 
-  --bg-image-home: url("../img/bg-home-light-3.avif");
-  --bg-image-page: url("../img/bg-light.jpg");
+
   --position-bg-home: -70rem 0;
   --logo-github: url("../img/logo-github-black.svg");
   --logo-github-hover: url("../img/logo-github-blue.svg");
